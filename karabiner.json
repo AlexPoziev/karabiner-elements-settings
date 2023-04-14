@@ -252,7 +252,7 @@
                                         "value": 1
                                     }
                                 ],
-                                "description": "Open -a 'Notion.app'",
+                                "description": "Open -a 'Android Studio.app'",
                                 "from": {
                                     "key_code": "n",
                                     "modifiers": {
@@ -263,7 +263,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a 'Notion.app'"
+                                        "shell_command": "open -a 'Android Studio.app'"
                                     }
                                 ],
                                 "type": "basic"
