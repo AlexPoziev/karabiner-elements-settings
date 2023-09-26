@@ -180,7 +180,7 @@
                                         "value": 1
                                     }
                                 ],
-                                "description": "Open -a 'Safari.app'",
+                                "description": "Open -a 'Brave Browser.app'",
                                 "from": {
                                     "key_code": "s",
                                     "modifiers": {
@@ -191,7 +191,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a 'Safari.app'"
+                                        "shell_command": "open -a 'Brave Browser.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -335,7 +335,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open http://195.70.201.5:3000/courses/10003"
+                                        "shell_command": "https://hwproj.ru"
                                     }
                                 ],
                                 "type": "basic"
