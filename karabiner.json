@@ -182,7 +182,7 @@
                                 ],
                                 "description": "Open -a 'Brave Browser.app'",
                                 "from": {
-                                    "key_code": "s",
+                                    "key_code": "b",
                                     "modifiers": {
                                         "mandatory": [
                                             "any"
@@ -276,7 +276,7 @@
                                         "value": 1
                                     }
                                 ],
-                                "description": "Open -a 'Terminal.app'",
+                                "description": "Open -a 'Rider.app'",
                                 "from": {
                                     "key_code": "r",
                                     "modifiers": {
@@ -287,7 +287,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a 'Terminal.app'"
+                                        "shell_command": "open -a 'Rider.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -335,7 +335,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "https://hwproj.ru"
+                                        "shell_command": "open https://hwproj.ru"
                                     }
                                 ],
                                 "type": "basic"
@@ -444,7 +444,7 @@
                                         "value": 1
                                     }
                                 ],
-                                "description": "Open -a 'Yandex Music Unofficial.app'",
+                                "description": "Open -a 'Яндекс Музыка.app'",
                                 "from": {
                                     "key_code": "x",
                                     "modifiers": {
@@ -455,7 +455,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a 'Yandex Music Unofficial.app'"
+                                        "shell_command": "open -a 'Яндекс Музыка.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -480,6 +480,30 @@
                                 "to": [
                                     {
                                         "shell_command": "open https://youtube.com"
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "name": "hyper_sublayer_o",
+                                        "type": "variable_if",
+                                        "value": 1
+                                    }
+                                ],
+                                "description": "Open Arc.app",
+                                "from": {
+                                    "key_code": "b",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open -a Arc.app"
                                     }
                                 ],
                                 "type": "basic"
@@ -704,7 +728,7 @@
                     "simple_modifications": [
                         {
                             "from": {
-                                "key_code": "up_arrow"
+                                "key_code": "down_arrow"
                             },
                             "to": [
                                 {
@@ -724,7 +748,7 @@
                         },
                         {
                             "from": {
-                                "key_code": "down_arrow"
+                                "key_code": "right_arrow"
                             },
                             "to": [
                                 {
@@ -734,7 +758,7 @@
                         },
                         {
                             "from": {
-                                "key_code": "right_arrow"
+                                "key_code": "up_arrow"
                             },
                             "to": [
                                 {
